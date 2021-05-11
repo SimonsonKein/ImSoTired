@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="679.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.SignUpFormController">
+   <children>
+      <AnchorPane prefHeight="91.0" prefWidth="600.0" style="-fx-background-color: #232323;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="219.0" layoutY="22.0" prefHeight="48.0" prefWidth="162.0" text="Sign Up" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="38.0" />
+               </font>
+            </Label>
+            <Button fx:id="toLogInBtn" contentDisplay="CENTER" layoutX="500.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #ffa600;" text="Log In" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="usernameField" layoutX="125.0" layoutY="130.0" prefHeight="34.0" prefWidth="306.0" promptText="Username" AnchorPane.bottomAnchor="515.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="firstNameField" layoutX="125.0" layoutY="205.0" promptText="First Name" AnchorPane.bottomAnchor="440.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="secondNameField" layoutX="125.0" layoutY="280.0" promptText="Second Name" AnchorPane.bottomAnchor="365.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailField" layoutX="125.0" layoutY="355.0" promptText="Email" AnchorPane.bottomAnchor="290.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="passwordField" layoutX="125.0" layoutY="430.0" promptText="Password" AnchorPane.bottomAnchor="215.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="confirmPasswordField" layoutX="125.0" layoutY="505.0" promptText="Confirm password" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="signUpBtn" contentDisplay="CENTER" layoutX="252.0" layoutY="631.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="99.0" style="-fx-background-color: #ffa600;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="usernameError1" layoutX="125.0" layoutY="167.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" />
+      <Label fx:id="usernameError2" layoutX="125.0" layoutY="184.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" />
+      <Label fx:id="firstNameError1" layoutX="125.0" layoutY="242.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" />
+      <Label fx:id="firstNameError2" layoutX="125.0" layoutY="259.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" />
+      <Label fx:id="secondNameError1" layoutX="126.0" layoutY="317.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0" />
+      <Label fx:id="secondNameError2" layoutX="126.0" layoutY="334.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0" />
+      <Label fx:id="emailError1" layoutX="125.0" layoutY="392.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" />
+      <Label fx:id="emailError2" layoutX="125.0" layoutY="409.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" />
+      <Label fx:id="passwordError1" layoutX="126.0" layoutY="467.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0" />
+      <Label fx:id="passwordError2" layoutX="125.0" layoutY="484.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" />
+      <Label fx:id="confirmPasswordError1" layoutX="126.0" layoutY="542.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0" />
+      <Label fx:id="confirmPasswordError2" layoutX="126.0" layoutY="561.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0" />
+   </children>
+</AnchorPane>
